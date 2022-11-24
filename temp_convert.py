@@ -34,7 +34,7 @@ def main():
     # Displays Program Title
     print("Celsius to Fahrenheit Program")
 
-    # Calls fahrenheit() function
+    # Calls function to convert user's celsius to fahrenheit
     fahrenheit()
 
 
