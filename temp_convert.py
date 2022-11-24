@@ -24,7 +24,7 @@ def fahrenheit():
     # Valid user input
     else:
         # Calculates the fahrenheit of the user input
-        fahrenheit = (9 / 5) * celsius + 32
+        fahrenheit = round((9 / 5) * celsius + 32, 2)
 
         # Displays the celsius to fahrenheit conversion to user
         print(f"{celsius}°C is equal to {fahrenheit}°F")
